@@ -1,3 +1,14 @@
+body{
+    text-align: center;
+}
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .grid{
     height: 300px;
     width: 306px;
