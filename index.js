@@ -5,7 +5,7 @@ const time = document.querySelector("#time");
 
 let randomId;
 let result = 0;
-let overTime = 60;
+let overTime =60;
 let timeId = null;
 
 function randomSquare() {
@@ -29,7 +29,7 @@ squares.forEach((square) => {
 });
 
 function moveMole() {
-  timeId = setInterval(randomSquare, 500);
+  timeId = setInterval(randomSquare, 1000);
 }
 
 moveMole();
